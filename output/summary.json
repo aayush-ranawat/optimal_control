@@ -1,0 +1,28 @@
+{
+  "paper": "Kim and Singh, Minimum Energy-Time Optimal Control of Wheeled Mobile Robots: Application to Parallel Parking, ACC 2022",
+  "alpha_deg": 45.0,
+  "mu": 0.5,
+  "z": 1.3796921885226592,
+  "tf": 1.6337672578716584,
+  "m": 0.26266704812304675,
+  "phi_deg": -15.646503182772282,
+  "eta": -0.5614182379883461,
+  "cost": 1.6337672578716584,
+  "analytical_boundary_error": [
+    1.1102230246251565e-16,
+    -1.9984014443252818e-15,
+    -4.380176776841438e-16
+  ],
+  "control_circle_max_error": 8.881784197001252e-16,
+  "numerical": {
+    "success": true,
+    "tf": 1.6337656582159705,
+    "boundary_error": [
+      0.0,
+      1.1102230246251565e-16,
+      1.7837322729093489e-19
+    ],
+    "max_state_gap_vs_analytical": 4.221305806462183e-06,
+    "hamiltonian_final": -5.045570551875228e-12
+  }
+}
