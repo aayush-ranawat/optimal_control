@@ -12,6 +12,8 @@ The code follows the paper's analytical reduction:
 
 ## Setup
 
+PLEASE INSTALL UV TO RUN THE PYTHON IMPLEMENTATION
+
 ```bash
 uv venv .venv
 uv sync
