@@ -1,0 +1,21 @@
+[project]
+name = "optimal-control-parking"
+version = "0.1.0"
+description = "Analytical and numerical evaluation of the minimum energy-time optimal parking controller from Kim and Singh (ACC 2022)."
+readme = "README.md"
+authors = [
+    { name = "aayush-ranawat", email = "aayushranawat3@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+    "scipy>=1.15.3",
+]
+
+[project.scripts]
+optimal-control-parking = "optimal_control_parking.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.10.4,<0.11.0"]
+build-backend = "uv_build"
